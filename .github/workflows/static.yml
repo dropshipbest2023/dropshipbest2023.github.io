@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #eee;
+      padding: 20px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    nav li {
+      margin: 0 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    section p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Website</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <form>
+      <input type="text" placeholder="Search...">
+      <button>Go</button>
+    </form>
+  </nav>
+  <section>
+    <h2>Welcome to my website</h2>
+    <p>This is my first website, created using HTML and CSS. I hope you like it!</p>
+  </section>
+  <footer>
+    Copyright 2021 My Website
+  </footer>
+</body>
+</html>
